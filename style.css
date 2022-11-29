@@ -25,6 +25,7 @@ main{
     background-color: #F3F5FC;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .logo h1{
@@ -188,7 +189,7 @@ main{
     .logo h1{
         text-align: center;
         /* width: 100%; */
-        font-size: 18px;
+        font-size: 14px;
     }
    
 }
