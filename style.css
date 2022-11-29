@@ -114,6 +114,7 @@ main{
 
 .conteudo-da-direita h2{
     font-size: 22px;
+    margin-bottom: 10px;
 }
 
 .conteudo-da-direita textarea{
@@ -180,6 +181,22 @@ main{
     .logo{
         flex-direction: column;
     }
+    .conteudo-da-direita textarea{
+        height: 50px;
+    }
+    .conteudo-da-direita{
+        display: block;
+        text-align: center;
+        height: auto;
+    }
+    .conteudo-da-direita h2{
+        margin: auto;
+    }
+    .conteudo-da-direita img{
+        /* padding-top: 5px; */
+        width: 100%;
+        border-radius: inherit;
+    }
 }
 
 @media(max-width: 375px){
@@ -215,6 +232,12 @@ main{
         text-align: center;
         font-size: 14px;
         padding: 0;
+    }
+
+    .conteudo-da-direita textarea{
+        /* width: auto; */
+        height: auto;
+        padding: 5px;
     }
    
 }
