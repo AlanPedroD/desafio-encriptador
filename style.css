@@ -5,7 +5,9 @@
 }
 
 html{
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+
+    font-family: 'Sono', sans-serif;
 }
 
 main{
@@ -23,13 +25,11 @@ main{
     max-width: 1440px;
     margin: 0 auto;
     background-color: #F3F5FC;
+    /* background-color: #2370cf; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
 
-.logo h1{
-    /* margin-left: 200px; */
     padding: 20px;
 }
 
@@ -188,8 +188,11 @@ main{
 
     .logo h1{
         text-align: center;
-        /* width: 100%; */
         font-size: 14px;
+    }
+
+    .logo{
+        justify-content: space-between;
     }
    
 }
